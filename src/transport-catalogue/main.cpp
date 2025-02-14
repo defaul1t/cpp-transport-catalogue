@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
   transport_catalogue::processing::TransportCatalogue catalogue;
-  fstream file("../data-samples/in_case1.txt");
+  fstream file("../../data-samples/in_case1.txt");
 
   JsonReader jreader;
   jreader.JsonIn(catalogue, file);
@@ -19,7 +19,7 @@ int main() {
   // maprend.CreateSvg(std::cout);
   // maprend.C
   // maprend.GetStatFromJson(jreader.data_request_);
-  ofstream ofile("../data-samples/out_case1.txt");
+  ofstream ofile("../../data-samples/out_case1.txt");
 
   // statreader::StatReader sreader(&ifile, &file);
   //  sreader.StartRequestParcing(catalogue);
